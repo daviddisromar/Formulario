@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header h2{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+body{
+  font-family: poppins, sans-serif;
+  background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1095px;
+}
+
+nav{
+background-image:linear-gradient(180deg,#180F4A,#090422,black);
+  color: white;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: 78px;
+}
+
+nav h1{
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+h2{
+  text-align: center;
+  font-size: 18px;
+}
+
+.naveg{
+    display: flex;
+    float: right;
+}
+
+.menu{
+    display: flex;  
+}
+
+ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;   
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  margin-right: 15px;
+}
+
+#btn{
+  background: #FF2978;
+  border-radius: 5px;
+  border: 1px solid #FF2978;
+  padding: 1px;
+  width: 50px;
+}
+
+#btn:hover{
+  background-color: #180F4A;
+}
+
+form{
+  font-size: 20px;
+  margin-left: 430px;
+}
+
+
+.area{
+  width: 342px;
+  height: 100px;
+}
+
+.enviar{
+  display: block;
+  width: 342px;
+  padding: 5px;
+  background: #FF2978;
+  color: white;
+  border-radius: 2px;
+  font-family: poppins, serif;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.enviar:hover{
+  background: white;
+  color: #180F4A;
+}
+
+#abaixo{  
+    padding: 7px;
+    margin-top: 1px;
+    display: block;
+    width: 342px;
+}
+
+.quebra{
+   margin-top: 20px;
+   font-size: 24px;
+}
+
+#back{
+    background-image:linear-gradient(180deg,#180F4A,#090422,black);
+    width: 365px;
+    height: 890px;
+    margin-left: 14px;
+    padding: 10px;
+    color: white;
+}
+
+.opt{
+    width: 342px;
+    padding: 7px;
+}

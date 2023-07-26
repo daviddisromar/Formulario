@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="David Disromar">
+  <link rel="stylesheet" href="css/estilo.css">
+  <title>Formulário Filiação</title>
+  
+</head>
+<body>
+  <nav>
+      <h1>IBJJF • CBJJ</h1>
+      <div>
+      <h2>Meu Pedido de Carteira</h2>
+      </div>
+      <div class="naveg">
+      <ul class="menu"> 
+      <li><a href="#">Home</a></li>  
+      <li><a href="#">Fale Conosco</a></li>
+      <li><a id="btn" href="#">Entrar</a></li>
+      </ul>
+      </div>
+  </nav>
+  
+<header>
+    <h2>Dados da Carteira</h2>
+</header>
+
+<section>
+  <form>
+  <div id="back">
+    <div class="quebra">
+      <label for="atleta">Atleta</label>
+      <input id="abaixo" type="text" placeholder="Digite seu nome" required>
+    </div>
+
+    <div class="quebra">
+      <label for="sexo">Sexo</label>
+      <input id="abaixo" type="text" placeholder="Digite seu sexo" required>
+    </div>
+    
+    <div class="quebra">
+      <label for="academia">Academia</label>
+      <input id="abaixo" type="text" placeholder="Digite sua academia" required>
+    </div>  
+
+    <div>
+      <p class="quebra">Equipe</p>
+        <select class="opt" name="equipe">
+          <option selected disabled value="">Escolha sua equipe</option>
+          <option value="Nova União">Nova União</option>
+          <option value="Nordeste JJ">Nordeste JJ</option>
+          <option value="GFTeam">GFTeam</option>
+          <option value="Six Blades">Six Blades</option>
+          <option value="Fight Club JJ">Fight Club JJ</option>
+        </select>
+    </div>
+
+    <div class="quebra">
+      <label for="professor">Professor</label>
+      <input id="abaixo" type="text" placeholder="Digite seu professor" required>
+    </div>
+
+    <div>
+      <p class="quebra">Escolha sua Faixa</p>
+      
+      <div class="belt">    
+      <input type="radio" name="faixa" value="Branca">
+      <label for="faixa">Branca</label>
+      </di>
+      
+      <div class="belt">
+      <input type="radio" name="faixa" value="Azul" >
+      <label for="faixa">Azul</label>    
+      </div>
+      
+      <div class="belt">
+      <input type="radio" name="faixa" value="Roxa" >
+      <label for="faixa">Roxa</label>
+      </div>
+    
+      <div class="belt">
+      <input type="radio" name="faixa" value="Marrom" >
+      <label for="faixa">Marrom</label>
+      </div>
+      
+      <div class="belt">
+      <input type="radio" name="faixa" value="Preta" >
+      <label for="faixa">Preta</label>
+      </div>
+      
+    </div>
+
+    <div class="quebra">
+      <label for="federacao">Federação</label>
+      <input id="abaixo" type="text" placeholder="Digite sua federação" required>
+    </div>
+
+    <div>
+      <p class="quebra">Algum comentário ou Sugestão</p>
+      <textarea class="area" name="mensagem" placeholder="Digite seu comentário..."></textarea>
+      <button class="enviar" type="submit" value="Enviar">Enviar</button>
+    </div>
+  
+  </div>
+  </form>  
+</section>
+  
+</body>
+</html>
